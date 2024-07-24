@@ -8,7 +8,7 @@ I've been programming since 2018, and I have a strong passion for creating thing
 
 ###
 
-### 📚 Experience
+## 📚 Experience
 
 I completed an internship at Psycheon, where I gained valuable experience in Django. Additionally, I have had the opportunity to do internships twice at DGCS, further enhancing my skills in general programming (API, testing, Git).
 
