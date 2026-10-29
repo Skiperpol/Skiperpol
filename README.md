@@ -179,26 +179,26 @@ const dawid = {
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/Skiperpol/mobile-mieszkaniownik">Mieszkaniownik</a></h3>
-      <p>An all-in-one mobile app for people sharing an apartment: split expenses with automatic debt settlement, chores on rotation, a shared shopping list, a calendar, a notice board, bathroom booking and QR-code group invites.</p>
-      <p><code>React&nbsp;Native</code> <code>Expo</code> <code>TypeScript</code> <code>Zustand</code></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/Skiperpol/full-stack-web-iot-library-system">IoT Library System</a></h3>
-      <p>An RFID-based library system. A Raspberry Pi scans cards, drives LEDs, a buzzer and a display, and talks to a NestJS backend over MQTT. A React dashboard receives real-time updates over WebSockets.</p>
-      <p><code>NestJS</code> <code>MQTT</code> <code>Socket.IO</code> <code>Python</code> <code>Raspberry&nbsp;Pi</code> <code>React</code></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/Skiperpol/desktop-formatimage">FormatImage</a></h3>
-      <p>A Windows desktop app that gets product photos ready for an online store in one click: AI background removal (BiRefNet Lite on ONNX Runtime, fully offline), resizing and WebP export. GitHub Actions builds the installer and smoke-tests it.</p>
-      <p><code>Electron</code> <code>ONNX&nbsp;Runtime</code> <code>AI</code> <code>GitHub&nbsp;Actions</code></p>
+      <h3><a href="https://github.com/Skiperpol/projektowanie-baz-danych">E-commerce Database Design</a></h3>
+      <p>An online-store database designed end to end by a team of four: an ER model with about 20 entities, a schema normalized to 3NF, PostgreSQL DDL with constraints and role-based access, Python data generators and 20+ reports tuned with <code>EXPLAIN</code> and indexes. The same domain was then remodeled in MongoDB and compared with the relational version.</p>
+      <p><code>PostgreSQL</code> <code>MongoDB</code> <code>SQL</code> <code>Python</code> <code>3NF</code> <code>Indexing</code></p>
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/Skiperpol/full-stack-house-organizator">House Organizer</a> <sub>· in progress</sub></h3>
       <p>A monorepo app for running a household: shared to-dos, shopping lists, family events and a vehicle service log. NestJS with Prisma, PostgreSQL, Redis and JWT auth, plus a React client on TanStack Query. I'm building it by hand, without AI coding agents.</p>
       <p><code>Turborepo</code> <code>pnpm</code> <code>NestJS</code> <code>Prisma</code> <code>Redis</code> <code>React</code></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/Skiperpol/frontend-typing-test">Typing Test</a></h3>
+      <p>A typing-speed test that measures WPM and accuracy, with sign-up and login, a personal test history, a profile page and a leaderboard. Built on the Next.js App Router with React 19, Tailwind CSS and shadcn/ui, and talks to a separate REST API.</p>
+      <p><code>Next.js</code> <code>React</code> <code>TypeScript</code> <code>Tailwind&nbsp;CSS</code> <code>shadcn/ui</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/Skiperpol/Backend-receipt-scanner">Receipt Scanner</a></h3>
+      <p>An expense tracker built around a photo of a receipt: EasyOCR and OpenCV split the image into sections and extract the purchase data. A Django REST API stores transactions and products, serves calendar summaries and uses token auth. It ships with Docker and has a <a href="https://github.com/Skiperpol/Frontend-receipt-scanner">Next.js frontend</a>.</p>
+      <p><code>Django&nbsp;REST</code> <code>EasyOCR</code> <code>OpenCV</code> <code>Docker</code> <code>Next.js</code></p>
     </td>
   </tr>
 </table>
@@ -209,13 +209,14 @@ const dawid = {
 
 | Project | Description | Stack |
 | :-- | :-- | :-- |
+| [**Mieszkaniownik**](https://github.com/Skiperpol/mobile-mieszkaniownik) | All-in-one mobile app for roommates: expense splitting with debt settlement, chore rotation, shopping list, calendar, bathroom booking, QR-code invites | React Native · Expo · TypeScript · Zustand |
+| [**IoT Library System**](https://github.com/Skiperpol/full-stack-web-iot-library-system) | RFID library system: a Raspberry Pi talks to a NestJS backend over MQTT, and a React dashboard gets live updates over WebSockets | NestJS · MQTT · Socket.IO · Python · Raspberry Pi · React |
+| [**FormatImage**](https://github.com/Skiperpol/desktop-formatimage) | Windows desktop app that prepares product photos for an online store: offline AI background removal, resizing, WebP export | Electron · ONNX Runtime · GitHub Actions |
+| [**Trading Simulator API**](https://github.com/Skiperpol/wakacyjne-wyzwanie-solvro-backend-2025) | Backend for a trading simulator game: portfolios, positions, trades, watchlists and strategy backtesting on technical indicators (Solvro summer challenge 2025) | NestJS · Prisma · PostgreSQL · Swagger |
 | [**Briskly**](https://github.com/Skiperpol/frontend-briskly) | Multi-stop travel planner with destination suggestions and a travel journal (built by a team of two) | React · TypeScript · Django REST · Supabase |
 | [**ubezpieczenia-cichy.pl**](https://ubezpieczenia-cichy.pl) | Production website for an insurance agency | React · TypeScript · Vite |
 | [**PadelMix**](https://skiperpol.github.io/padelmix/) | Mobile-first web app for padel americano: fair round generator, score entry, live ranking | React · TypeScript · Vite · GitHub Pages |
-| [**Receipt Scanner**](https://github.com/Skiperpol/Backend-receipt-scanner) | REST API for tracking expenses with OCR-based receipt parsing | Django REST · EasyOCR · OpenCV · Docker |
-| [**Typing Test**](https://github.com/Skiperpol/frontend-typing-test) | Typing-speed test app | Next.js · TypeScript · shadcn/ui |
 | [**IT Project Management API**](https://github.com/Skiperpol/ITProjectManagementApp) | Task management API for development teams (Solvro recruitment task) | Node.js · Express.js · Postman |
-| [**Database Design**](https://github.com/Skiperpol/projektowanie-baz-danych) | Relational and NoSQL database design: ER model, 3NF, query optimization with `EXPLAIN` (team of four) | SQL · NoSQL · Python |
 
 </details>
 
